@@ -20,19 +20,19 @@ https://github.com/user-attachments/assets/70051dab-ac37-4bb3-8156-70f1ad6b0894
 1. Run the main.py file which handles the scraping seperately. 
 
 ```
-C:\Users> python main.py
+python main.py
 ```
 
 2. Run the ReelTikTok.cpp file which handles the video overlay editing process and produces several different clips.
 
 ```
-C:\Users> g++ ReelTikTok.cpp
+g++ ReelTikTok.cpp
 ```
 
 3. Run the vidaudiocombine.py file which stitches the clips together and saves the final product.
 
 ```
-C:\Users> python vidaudiocombine.py
+python vidaudiocombine.py
 ```
 
 The final product should be saved in this directory
