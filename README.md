@@ -1,4 +1,4 @@
-# ReelTikTok
+# ReelReddit
 
 **Transform engaging Reddit stories into captivating short-form video content automatically.**
 
