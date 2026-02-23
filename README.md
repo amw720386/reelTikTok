@@ -4,6 +4,8 @@
 
 ReelTikTok scrapes trending threads from Reddit, generates AI-powered voiceovers, overlays dynamic visuals, and uploads finished videos directly to YouTube Shorts—all with minimal manual intervention.
 
+https://github.com/user-attachments/assets/6ef34482-03f8-4db2-95bf-bddcc45a0159
+
 ## Features
 
 - **Automated Web Scraping** - Extracts top posts and comments from r/AskReddit
