@@ -2,7 +2,7 @@
 
 **Transform engaging Reddit stories into captivating short-form video content automatically.**
 
-ReelTikTok scrapes trending threads from Reddit, generates AI-powered voiceovers, overlays dynamic visuals, and uploads finished videos directly to YouTube Shorts—all with minimal manual intervention.
+ReelReddit scrapes trending threads from Reddit, generates AI-powered voiceovers, overlays dynamic visuals, and uploads finished videos directly to YouTube Shorts—all with minimal manual intervention.
 
 https://github.com/user-attachments/assets/6ef34482-03f8-4db2-95bf-bddcc45a0159
 
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/6ef34482-03f8-4db2-95bf-bddcc45a0159
 ## Project Structure
 
 ```
-reelTikTok-prod/
+ReelReddit/
 ├── main.py                # Entry point - orchestrates the pipeline
 ├── scrape.py              # Reddit web scraping and audio generation
 ├── videoprocess.py        # Image overlay and video frame processing
@@ -48,8 +48,8 @@ reelTikTok-prod/
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/yourusername/reelTikTok-prod.git
-cd reelTikTok-prod
+git clone https://github.com/yourusername/ReelReddit.git
+cd ReelReddit
 pip install -r requirements.txt
 ```
 
@@ -61,7 +61,7 @@ Create a `.env` file in the project root with your API credentials:
 # Reddit API (from https://www.reddit.com/prefs/apps)
 client_id="your_reddit_client_id"
 client_secret="your_reddit_client_secret"
-user_agent="reelTikTok by YourUsername"
+user_agent="ReelReddit by YourUsername"
 
 # Azure Text-to-Speech (from https://portal.azure.com)
 azure_speech_key="your_azure_speech_key"
